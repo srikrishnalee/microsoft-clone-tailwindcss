@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67a10e7090.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Microsoft Clone</title>
+</head>
+
+<body>
+    <div class="container mx-auto">    
+    <div class="navbar flex justify-between items-center p-4">
+        <div class="flex justify-center items-center  md:order-2">
+            <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="search md:hidden w-4 mr-6"><img src="assets/search.svg" alt=""></div>
+        </div>
+
+        <div class="logo text-center flex md:order-1">
+            <div class="flex justify-start"><img class="w-[50%]" src="assets/mslogo.png" alt=""></div>
+
+            <div class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:items-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
+                <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Microsoft 365</div>
+                <div class="hover:underline hover:underline-offset-8 cursor-pointer">Office</div>
+                <div class="hover:underline hover:underline-offset-8 cursor-pointer">Windows</div>
+                <div class="hover:underline hover:underline-offset-8 cursor-pointer">Surface</div>
+                <div class="hover:underline hover:underline-offset-8 cursor-pointer">Xbox</div>
+                <div class="hover:underline hover:underline-offset-8 cursor-pointer">Support</div>
+            </div>
+        </div>
+        <div class="cart text-center md:order-3 flex">
+            <div class="search hidden md:block mr-6"> All Microsoft </div>
+            <div class="mx-2">Search</div>
+            <img class="w-4 mr-6" src="assets/search.svg" alt="">
+            <div class="flex pt-1">
+                <img class="w-4 h-4 mr-4" src="assets/cart icon.svg" alt="">
+                <img class="w-4 h-4 mr-4" src="assets/account icon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
+        <div class="left flex flex-col justify-center items-center md:items-baseline py-12 ml-32 space-y-5">
+            <h1 class="text-2xl font-medium md:text-4xl mx-5">Surface Laptop 4</h1>
+            <p class="w-3/4 mx-5 text-center md:text-left">Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance</p>
+            <button class="text-white bg-black px-4 py-2 my-6 font-bold mx-5 hover:bg-white hover:text-black">Shop Now ></button>
+        </div>
+        <div class="right">
+            <img class="w-[60rem] md:w-[64rem]" src="assets/ms.webp" alt="">
+        </div>
+    </div>
+
+    <div class="promo space-y-6 flex flex-col lg:flex-row justify-center">
+        <div class="item flex items-center mx-4 mt-6 space-x-2 md:flex-col" >
+            <img src="assets/ic1.png" alt="">
+            <span class="font-medium md:w-[8rem] md:text-center text-sm my-4 hover:underline">Choose your Microsoft 365</span>
+        </div>
+        <div class="item flex md:flex-col items-center mx-4 space-x-2" >
+            <img src="assets/ic2.webp" alt="">
+            <span class="font-medium md:w-[8rem] md:text-center text-sm my-4 hover:underline">Explore Surface devices</span>
+        </div>
+        <div class="item flex items-center mx-4 space-x-2 md:flex-col" >
+            <img src="assets/ic3.webp" alt="">
+            <span class="font-medium md:w-[8rem] md:text-center text-sm my-4 hover:underline">Buy Xbox games</span>
+        </div>
+        <div class="item flex items-center mx-4 space-x-2 md:flex-col" >
+            <img src="assets/ic4.png" alt="">
+            <span class="font-medium md:w-[8rem] md:text-center text-sm my-4 hover:underline">Get Windows 11</span>
+        </div>
+    </div>
+
+    <div class="flex lg:flex-row sm:flex-col  mt-[20px]">
+        <!-- item 1 -->
+
+        <div class="flex flex-col justify-center items-center">
+            <img src="/microsoft/assets/ms.webp" class="w-[400px]">
+            <h class="font-bold text-xl ml-[-200px] mt-[10px]">Surface laptop 4</h>
+            <p class="w-[350px] font-medium">Do it all with a perfect balance of sleek,ultra thin design,multitasking speed and improved performace</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px] ">Shop now <i class="fa-solid fa-arrow-right ml-[5px] "  ></i> </button>
+                   
+            </div>
+
+        </div>
+
+        <!-- item-2  -->
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[10px] md:mt-[0px]">
+            <img src="./assets/RWKFjD.webp" class="w-[400px]">
+            <div class="bg-yellow-400 rounded-md ml-[-260px] mt-[7px] w-[50px] text-center">
+                <p1>NEW</p1>
+            </div>
+            <h class="font-bold text-xl ml-[-150px] mt-[10px]">Surface laptop Studio</h>
+            <p class="w-[350px] font-medium">Flex your creative muscle on the most powerful surface laptop</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-600 ml-[-170px] ">Learn more <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+        <!-- item 3 -->
+
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[10px] md:mt-[0px]">
+            <img src="/microsoft/assets/xbox.jpg" class="w-[400px]">
+            <h class="font-bold text-xl ml-[-130px] mt-[10px]">Xbox Game Pass Ultimate</h>
+            <p class="w-[350px] font-medium">Get your first 8 months of membership for $99 dollars.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px] ">join now <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+        <!-- item 4 -->
+
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[10px] md:mt-[0px]">
+            <img src="/microsoft/assets/RE4rzE2.webp" class="w-[400px]">
+            <h class="font-bold text-xl ml-[-200px] mt-[10px]">microsoft edge</h>
+            <p class="w-[350px] font-medium">World-class performace with more privacy,nore productivity amd more values.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px] ">Download now <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!-- microsoft drive section -->
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mt-[20px]">
+        <div class="left flex flex-col justify-center items-center md:items-baseline py-12 ml-32 space-y-5">
+            <h1 class="text-2xl font-medium md:text-4xl mx-5">Microsoft One Drive</h1>
+            <p class="w-3/4 mx-5 text-center md:text-left">Save your files and photos to OneDrive and access them from any device</p>
+            <button class="text-white bg-black px-4 py-2 my-6 font-bold mx-5 hover:bg-white hover:text-black">Learn More ></button>
+        </div>
+        <div class="right">
+            <img class="w-[60rem] md:w-[64rem]" src="assets/RE3hFDE.webp" alt="">
+        </div>
+    </div>
+
+    <h1 class="text-3xl font-bold mt-[20px]"> For  Business </h1>
+
+    <div class="flex lg:flex-row sm:flex-col  mt-[20px]">
+        <!-- item 1 -->
+
+        <div class="flex flex-col justify-center items-center ">
+            <img src="/microsoft/assets/RWKmlf.webp" class="w-[400px]">
+            <div class="bg-yellow-400 rounded-md ml-[-260px] mt-[7px] w-[50px] text-center">
+                <p1>NEW</p1>
+            </div>
+            <h class="font-bold text-xl ml-[-120px] mt-[10px]">Surface pro 8 for Business</h>
+            <p class="w-[350px] font-medium">Get unprecedented levels of performance and versatility on a 13-inch screen.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px]">Learn More <i class="fa-solid fa-arrow-right ml-[5px] "  ></i> </button>
+                   
+            </div>
+
+        </div>
+
+        <!-- item-2  -->
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[20px] md:mt-[2px]">
+            <img src="./assets/RWMGbF.webp" class="w-[400px]">
+            
+            <h class="font-bold text-xl ml-[-50px] mt-[10px]">Windows 11 for business is here</h>
+            <p class="w-[350px] font-medium">online meetings chat and share cloud storage.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-600 ml-[-170px] ">sign up for free <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+        <!-- item 3 -->
+
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[20px] md:mt-[2px] ">
+            <img src="/microsoft/assets/RWLJ3u.webp" class="w-[400px]">
+            <h class="font-bold text-xl ml-[-100px] mt-[10px] ">Get microsoft Teams for free.</h>
+            <p class="w-[350px] font-medium ">Get your first 8 months of membership for $99 dollars.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px] ">join now <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+        <!-- item 4 -->
+
+        <div class="flex flex-col justify-center items-center ml-[12px] sm:mt-[20px] md:mt-[20px] hover:bg-yellow-900 hover:rounded-md">
+            <img src="/microsoft/assets/RWURKU.jpg" class="w-[400px]">
+            <h class="font-bold text-xl ml-[-150px] mt-[10px] hover:text-white">Thrive in Hybrid World</h>
+            <p class="w-[350px] font-medium">Discover tools,resources and statergies to help your employees.</p>
+            <div class="flex items-center hover:underline mt-[10px]">
+                <button class="text-cyan-700 ml-[-170px] ">Download now <i class="fa-solid fa-arrow-right ml-[5px] "  ></i></button>
+                    
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="flex items-center mt-[10px]">
+            <p class="text-xl font-bold text-blue-300">Follow Microsoft</p>
+            <i class="fa-brands fa-facebook ml-[10px]  " ></i>
+            <i class="fa-brands fa-twitter ml-[10px]  hover:ml-[100px]"></i>
+            <i class="fa-brands fa-youtube ml-[10px] hover:h-[100px] hover:w-[100px] hover:ml-[100px]"></i>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+
+</html> 
